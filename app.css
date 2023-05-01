@@ -1,0 +1,39 @@
+.fbox {
+    display: flex;
+    border: 2px solid black;
+    height: 45vh;
+    /* flex-direction: column-reverse; */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-items: flex-end;
+    align-items: flex-start */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: flex-direction, flex-wrap; */
+    /* flex-flow: column wrap; */
+
+}
+
+.fitem {
+    background-color: red;
+    border : 2px solid black;
+    margin: 12px;
+    width: 122px;
+    height: 122px;
+}
+
+.item1 {
+    /* the flex-grow and flex-shrink has a default value 1 */
+    /* order: 2; */
+    /* flex-grow: 2; */
+    /* flex-shrink: 1;  */
+    align-self: center;
+}
+
+.item2 {
+    /* order: 3; */
+    /* the one with high order value will be placed at the last */
+    /* flex-grow: 3; */
+}
