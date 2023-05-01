@@ -1,0 +1,15 @@
+.img-container {
+    border: 2px solid black;
+    /* padding: 1rem; */
+}
+
+img {
+    width: 33.33%;
+}
+
+.header {
+    font-size: 50px;
+    background-color: bisque;
+    line-height: 50%;
+}
+
