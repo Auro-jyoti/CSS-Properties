@@ -13,3 +13,36 @@ img {
     line-height: 50%;
 }
 
+.em-container {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    /* 2 * 20px = 40px */
+}
+
+h3 {
+    font-size: 3em;
+    /* 3 * 20px = 60px */
+}
+
+.em-paragraph {
+    font-size: 2em;
+    /* 2 * 20px = 40px */
+}
+
+.em-header {
+    background-color: aqua;
+    font-size: 3em; 
+    height: 3em;
+    /* height: 180px; cross-check */
+}
+
+.em-list>h1{
+    font-size: 2em;
+}
+
+li {
+    font-size: 2em; 
+}
