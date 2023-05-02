@@ -46,3 +46,22 @@ h3 {
 li {
     font-size: 2em; 
 }
+
+.rem-list h1 {
+    font-size: 4rem;
+}
+
+.rem-list li {
+    font-size: 2rem;
+}
+
+.em-header-btn {
+    font-size: 3em;
+}
+.em-rem {
+    background-color: red;
+    /* font-size: 1em; */
+    font-size: 1em;
+    padding: 0.5rem;
+    border-radius: 5em;
+}
